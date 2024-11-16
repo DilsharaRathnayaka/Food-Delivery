@@ -16,12 +16,26 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-content-center">
+              <h2>COMPANY</h2>
+              <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Delivery</li>
+                <li>Privacy policy</li>
+              </ul>
 
             </div>
             <div className="footer-content-right">
+              <h2>GET IN TOUCH</h2>
+              <ul>
+                <li>+94-741381394</li>
+                <li>contact@gmail.com</li>
+              </ul>
 
             </div>
         </div>
+        <hr />
+        <p className="footer-copyright">Copuright 2024 Dilshara.com - All Right Reserved.</p>
     </div>
   )
 }
